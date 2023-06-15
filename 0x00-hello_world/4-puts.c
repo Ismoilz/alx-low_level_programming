@@ -2,7 +2,7 @@
 
 /**
  *  main - prints without printf
- End with 0
+Return: ends with 0
  */
 
 int  main(void)
