@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdlib.h>
 /*
- * main - check if random number is positive or negative
+ * main - check if random number n is positive, 
+ * a zero, or negative with a proper message
  * Return: 0
  */
 
