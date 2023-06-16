@@ -8,15 +8,15 @@
  */
 int main(void)
 {
-	char x;
+	int x;
 
 	x = '0';
 
 	while (x <= '10')
 	{
-		putchar(x);
+		printf("%d", x);
 		x++;
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
