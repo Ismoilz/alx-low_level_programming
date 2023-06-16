@@ -12,15 +12,15 @@ int main(void)
 {
 	int x;
 
-	x = 0;
+	x = '0';
 
-	while (x <= 9)
+	while (x <= '9')
 	{
-		putchar('x');
+		putchar(x);
 		putchar(',');
 		putchar(' ');
 		x++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
