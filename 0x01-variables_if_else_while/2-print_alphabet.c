@@ -3,7 +3,7 @@
  * main - Entry point of the program.
  *
  * Description: This program lists the alphabet from 'a' to 'z' 
- * 		using a while loop and putchar.
+ *		using a while loop and putchar.
  * Return: 0 (Success)
  */
 int main(void)
