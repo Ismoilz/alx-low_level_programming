@@ -13,7 +13,7 @@ int main(void)
 
 	x = 0;
 
-	while (x <= 16)
+	while (x <= 15)
 	{
 		printf("%x", x);
 		x++;
