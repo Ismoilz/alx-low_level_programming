@@ -4,7 +4,7 @@
  * main - Entry point of the program.
  *
  * Description: This program lists numbers from '0' to '9'
- *		using a while loop and putchar.
+ *		using a while loop.
  * Return: 0 (Success)
  */
 int main(void)
