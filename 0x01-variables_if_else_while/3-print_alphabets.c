@@ -3,13 +3,13 @@
  * main - Entry point of the program.
  *
  * Description: This program lists the alphabet from 'a' to 'z'
- * 		both lowercase and uppercase,
+ *		both lowercase and uppercase,
  *		using a while loop and putchar.
  * Return: 0 (Success)
  */
 int main(void)
 {
-	char x,y;
+	char x, y;
 
 	x = 'a';
 	y = 'A';
