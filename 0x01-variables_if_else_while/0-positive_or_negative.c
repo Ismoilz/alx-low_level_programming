@@ -3,7 +3,6 @@
 #include <stdlib.h>
 /*
  * main - check if random number is positive or negative
- *
  * Return: 0
  */
 
