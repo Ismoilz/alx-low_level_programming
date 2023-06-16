@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 /**
  * main - Entry point of the program.
  *
@@ -10,9 +11,9 @@ int main(void)
 {
 	int x;
 
-	x = '0';
+	x = 0;
 
-	while (x <= '10')
+	while (x <= 9)
 	{
 		printf("%d", x);
 		x++;
