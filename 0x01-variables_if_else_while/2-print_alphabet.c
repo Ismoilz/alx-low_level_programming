@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main - Lists alphabet from a to z
+ * main - lists alphabet from a to z
  * Description: Using while loop and putchar to list alphabet one by one.
  * Return: 0
  */
