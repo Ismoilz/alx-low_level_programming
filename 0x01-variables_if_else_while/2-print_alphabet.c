@@ -2,7 +2,7 @@
 
 /*
  * main - Lists alphabet from a to z
- * Description: Using while loop to list alphabet one by one.
+ * Description: Using while loop and putchar to list alphabet one by one.
  * Return: 0
  */
 int main(void)
