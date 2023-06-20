@@ -11,11 +11,11 @@ int main() {
     int i = 0;
 
     while (word[i] != 0) {
-        putchar(word[i]);
+       _putchar(word[i]);
         i++;
     }
 
-    putchar('\n');
+    _putchar('\n');
 
     return 0;
 }
