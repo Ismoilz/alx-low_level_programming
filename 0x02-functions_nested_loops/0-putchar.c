@@ -6,16 +6,18 @@
  * Return: 0 (success)
  */
 
-int main() {
-    char word[] = "_putchar";
-    int i = 0;
+int main(void)
+{
+	char word[] = "_putchar";
+	int i = 0;
 
-    while (word[i] != 0) {
-       _putchar(word[i]);
-        i++;
+	while (word[i] != 0)
+	{
+		_putchar(word[i]);
+		i++;
     }
 
-    _putchar('\n');
+	_putchar('\n');
 
-    return 0;
+	return (0);
 }
