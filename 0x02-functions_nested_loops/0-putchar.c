@@ -1,12 +1,10 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - Entry point
  * Description: Prints _putchar without stdio
  * Return: 0 (success)
  */
-
-#include "main.h"
 
 int main() {
     char printo[] = "_putchar";
