@@ -6,7 +6,7 @@
 
 int _islower(char c)
 {
-	while (c <= 'a'&& c >= 'z')
+	while (c >= 'a'&& c <= 'z')
 	{
 		return (1);
 	}
