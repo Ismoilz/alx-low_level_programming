@@ -7,7 +7,7 @@
  */
 
 int main() {
-    char printo[] = "_putchar";
+    char word[] = "_putchar";
     int i = 0;
 
     while (word[i] != 0) {
