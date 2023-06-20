@@ -1,14 +1,23 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * main - Entry point
- * Description: this program will print _putchar
+ * Description: Prints _putchar without stdio
  * Return: 0 (success)
  */
 
-int main(void)
-{
-	printf("_putchar\n");
-	return (0);
-}
+#include <stdio.h>
 
+int main() {
+    char printo[] = "_putchar";
+    int i = 0;
+
+    while (word[i] != 0) {
+        putchar(word[i]);
+        i++;
+    }
+
+    putchar('\n');
+
+    return 0;
+}
