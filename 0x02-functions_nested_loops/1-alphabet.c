@@ -6,11 +6,12 @@
  * Return: 0 (success)
  */
 
-void print_alphabet (void)
+void print_alphabet(void)
 {
 	char x;
 	x = 'a';
-	while(x < 'z'+1)
+
+	while (x < 'z' + 1)
 	{
 		_putchar(x);
 		x++;
