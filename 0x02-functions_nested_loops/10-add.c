@@ -4,7 +4,7 @@
  * add - adds 2 number
  */
 
-int add(int y, int x)
+int add(int a, int b)
 {
-	return(x + y)
+	return (a + b);
 }
