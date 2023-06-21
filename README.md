@@ -1,1 +1,1 @@
-Low level programming repository
+Debugging project readme
