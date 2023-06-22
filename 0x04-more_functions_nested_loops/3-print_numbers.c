@@ -10,7 +10,7 @@ void print_numbers(void)
 
 	while (i <= 9)
 	{
-		_putchar(i + '0');
+		_putchar(i + 48);
 		i++;
 	}
 
