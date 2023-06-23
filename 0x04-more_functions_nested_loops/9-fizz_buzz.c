@@ -2,9 +2,10 @@
 
 /**
  * main - fizzbuzz fizzbuzz
+ * Return: O (success)
  */
 
-int main()
+int main(void)
 {
 	int i;
 
@@ -17,7 +18,7 @@ int main()
 		else if (i % 3 == 0)
 	{
 		printf("Fizz ");
-        }
+	}
 		else if (i % 5 == 0)
 		{
 			printf("Buzz ");
@@ -28,5 +29,5 @@ int main()
 		}
 	}
 	printf("\n");
-	return 0;
+	return (0);
 }
