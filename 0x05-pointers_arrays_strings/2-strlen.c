@@ -3,6 +3,7 @@
 /**
  * _strlen - gives string length
  * @s: string to check
+ * Return: counter i
  */
 
 int _strlen(char *s)
