@@ -4,26 +4,26 @@ include "main.h"
  * _strncat - concatenate two strings
  * @dest: string 2
  * @src: string 1
- * n: length of the destination string
+ * @n: length of the destination string
  * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int x = 0;
+	int n = 0;
 
 	int i = 0;
 
-	while (dest[x] != '\0')
-		x++;
+	while (dest[n] != '\0')
+		n++;
 
-	while (src[i] != '\0' && i < x)
+	while (src[i] != '\0' && i < n)
 	{
-	dest[x] = src[i];
-	x++;
+	dest[n] = src[i];
+	n++;
 	i++;
 	}
-	dest[x] = '\0';
+	dest[n] = '\0';
 
 	return (dest);
 }
