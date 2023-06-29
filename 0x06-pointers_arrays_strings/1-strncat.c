@@ -1,11 +1,10 @@
-#include "mainh"
+#include "main.h"
 
- /**
+/**
  * _strncat - concatenate two strings
  * @dest: string 2
  * @src: string 1
  * @n: bytes from src
- *
  * Return: dest
  */
 
