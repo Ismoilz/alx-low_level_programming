@@ -10,20 +10,20 @@ include "main.h"
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int n = 0;
+	int x = 0;
 
 	int i = 0;
 
-	while (dest[n] != '\0')
-		n++;
+	while (dest[x] != '\0')
+		x++;
 
-	while (src[i] != '\0' && i < n)
+	while (src[i] != '\0' && i < x)
 	{
-	dest[n] = src[i];
-	n++;
+	dest[x] = src[i];
+	x++;
 	i++;
 	}
-	dest[n] = '\0';
+	dest[x] = '\0';
 
 	return (dest);
 }
