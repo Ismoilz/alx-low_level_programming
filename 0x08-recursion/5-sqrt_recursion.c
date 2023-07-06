@@ -27,5 +27,5 @@ int sq_calc(int n, int sq)
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt_value(1, n));
+	return (sq_calc(1, n));
 }
