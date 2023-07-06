@@ -6,7 +6,7 @@
 * Returns: -1 if not natural
 */
 
-int sq_calc(int sq)
+int sq_calc(int n, int sq)
 {
 
 	if (sq * sq == n)
