@@ -6,9 +6,16 @@
  * @argc: counter
  * Return: 0 succcess
  */
+
 int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
+	int i;
 
+	i = 0;
+	while (i < argc)
+	{
+		printf("%s\n", argv[0]);
+		i++;
+	}
 	return (0);
 }
