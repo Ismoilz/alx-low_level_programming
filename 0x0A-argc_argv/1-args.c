@@ -6,9 +6,9 @@
  * @argv: string
  * Return: 0 success
  */
-
 int main(int argc)
 {
 	printf("%d\n", argc - 1);
-	return 0;
+
+	return (0);
 }
