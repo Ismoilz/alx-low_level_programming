@@ -3,9 +3,10 @@
 /**
  * main - a program that prints its name
  * @argv: string
+ * @argc: counter
  * Return: 0 succcess
  */
-int main(char *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
 
