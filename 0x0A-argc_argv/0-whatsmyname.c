@@ -3,7 +3,6 @@
 /**
  * main - a program that prints its name
  * @argv: string
- *
  * Return: 0 succcess
  */
 int main(char *argv[])
