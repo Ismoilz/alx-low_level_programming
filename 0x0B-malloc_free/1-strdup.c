@@ -12,6 +12,8 @@ char *_strdup(char *str)
 {
 	char *duplicate;
 
+	int i;
+
 	int length;
 
 	if (str == NULL)
@@ -28,9 +30,9 @@ char *_strdup(char *str)
 	if (duplicate == NULL)
         return NULL;
 
-	for (int i = 0; i < length; i++)
-		duplicate[i] = str[I];
+	for (i = 0; i < length; i++){
+		duplicate[i] = str[i];
 		duplicate[length] = '\0';
-
+	}
 	return duplicate;
 }
