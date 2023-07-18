@@ -43,6 +43,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 	return (new_dog);
 }
 
+/**
+ * _strlen - counts string length
+ * @s: pointer to string
+ * Return: length
+ */
+
 int _strlen(char *s)
 {
 	int i;
@@ -54,6 +60,13 @@ int _strlen(char *s)
 	}
 	return (i);
 }
+
+/**
+ * _strcpy - copy
+ * @dest: destination string
+ * @src: source string
+ * Return: dest
+ */
 char *_strcpy(char *dest, char *src)
 {
 	int i;
