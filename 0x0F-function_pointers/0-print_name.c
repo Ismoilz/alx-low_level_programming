@@ -1,10 +1,9 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include "function_pointers.h"
-
 
 /**
 * main - Call the function pointed to by the function pointer f
-* @name: name to print
+*@name: name to print
 * @f: pointer to the function
 */
 
