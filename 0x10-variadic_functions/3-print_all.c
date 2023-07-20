@@ -16,8 +16,8 @@ void print_all(const char * const format, ...)
 	char *str;
 	const char *separator;
 
+	str = va_arg(args, char *);
 	separator = "";
-
 	i = 0;
 
 	va_start(args, format);
@@ -36,8 +36,6 @@ void print_all(const char * const format, ...)
 			printf("%s%f", separator, va_arg(args, double));
 			break;
 			case 's':
-			str = va_arg(args, char *);
-
 			if (str == NULL)
 			str = "(nil)";
 			printf("%s%s", separator, str);
