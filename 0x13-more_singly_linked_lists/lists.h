@@ -7,8 +7,6 @@
 typedef struct listint_s
 {
 	int n;
-	char *str;
-	unsigned int len;
 	struct listint_s *next;
 } listint_t;
 
